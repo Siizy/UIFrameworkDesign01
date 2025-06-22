@@ -18,6 +18,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
 		driver.navigate().to("https://practicesoftwaretesting.com/");
+		//Added a comment
 	}
 	
 	@AfterMethod
